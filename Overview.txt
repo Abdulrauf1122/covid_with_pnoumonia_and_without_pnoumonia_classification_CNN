@@ -1,0 +1,18 @@
+Project Title: COVID Pneumonia Classification Using Convolutional Neural Networks
+Project Description:
+This project involves the development of a deep learning model for the classification of images into two categories: “covid_with_PNEUMONIA” and “covid_without_PNEUMONIA”. The model is built using Convolutional Neural Networks (CNNs), a class of deep neural networks, which have proven to be effective in areas such as image recognition and classification.
+
+The project uses the TensorFlow and Keras libraries to build and train the model. The model architecture includes a Conv2D layer, a MaxPooling2D layer, a Flatten layer, and two Dense layers. The model is trained on a dataset of images, which are preprocessed and fed into the model using TensorFlow’s ImageDataGenerator class.
+
+Once the model is trained, it can be used to classify a new image into one of the two categories. The image is preprocessed and reshaped before being passed to the model for prediction.
+
+Key Features:
+Binary image classification using Convolutional Neural Networks (CNNs)
+Image preprocessing and data augmentation using TensorFlow’s ImageDataGenerator
+Use of the Adam optimizer and binary cross-entropy loss function for model training
+Ability to classify a new image into one of the two categories: “covid_with_PNEUMONIA” and “covid_without_PNEUMONIA”
+Technologies Used:
+Python
+TensorFlow
+Keras
+OpenCV
